@@ -1,278 +1,473 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Suv@deep</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suv@deep</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="./Styles/index.css">
+
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-
 <body>
+    
+    <div class="container">
+        <div class="nav_section">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand text-white" href="#">
+                    Suvadeep <span>Maity</span>
+                </a>
+                <button class="navbar-toggler" style="border: none;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <i class="text-white fa fa-bars"></i>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" style="color: #E03B8B !important ;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about_section">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#skills_section">Skills</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#portfolio_section">Portfolio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#blog_section">Blog</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#contact_section">Contact</a>
+                      </li>
+                  </ul>
+                </div>
+              </nav>
+        </div>
+    </div>
 
-	<header>
-		<div class="container ">
-			<div class="row no-gutters">
-				<div class="col-lg-4 col-md-4">
-					<img src="img/suvadeep.jpg" alt="">
-				</div>
+<!-- hero section -->
 
+<div class="hero_section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-ms-12 col-xs-12">
+                <h3>Hello</h3>
+                <h1>I<span>'</span>m Suvadeep Maity</h1>
+                <h2>I am a Full Stack Web Developer & Freelancer</h2>
+                <div class="btn_container">
+                  <a href="https://forms.gle/pZFnmrGFrQJZ6gc6A">
+                    <button class="btn btn-light animate_animated">Hire me</button>
+                  </a>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-ms-12 col-xs-12">
+                <center>
+                    <img src="./Images/hero-section.png" alt="">
+                </center>
+            </div>
+            
+        </div>
+    </div>
+</div>
 
-				<div class="col-lg-8 col-md-8">
-
-					<div class="d-flex flex-column">
-						<div class="p-5 bg-dark text-white">
-							<div class="flex-row justify-content-between align-items-center">
-								<h4 class="name">Suvadeep Maity</h4><br>
-								<p style="float: left;">
-								<div> <a href="https://www.facebook.com/profile.php?id=100055852188607"
-										target="_blank"><i class="fa fa-facebook display-5"
-											style="float:left; margin: 7px;"></i></a></div>
-								<div><a href="https://www.linkedin.com/in/suvadeep-maity-392a881a7/" target="_blank"><i
-											class="fa fa-linkedin" style="float:left;  margin: 7px;"></i></a></div>
-								<!-- <div><a href="https://www.youtube.com/channel/UCCxzFiBV6vwWl1wzTsPX1hQ"
-										target="_blank"><i class="fa fa-youtube-play"
-											style="float:left;  margin: 7px;"></i></a></div> -->
-								<div><a href="https://github.com/AndrewSuv" target="_blank"><i class="fa fa-github"
-											style="float:left;  margin: 7px;"></i></a></div>
-								</p>
-							</div>
-						</div>
-
-						<div class="p-3 text-white bg-black">Web Developer || Freelancer || Coder</div>
-
-						<div class="d-flex flex-row text-center text-white">
-							<div class="p-2 bg-success font-div" data-toggle="collapse" data-target="#home">
-								<i class="fa fa-home  fa-2x  d-block"></i>Home
-							</div>
-
-							<div class="p-2 bg-danger font-div" data-toggle="collapse" data-target="#resume">
-								<i class="fa fa-graduation-cap  fa-2x d-block"></i>Resume
-							</div>
-
-							<div class="p-2 bg-primary font-div" data-toggle="collapse" data-target="#work">
-								<i class="fa fa-folder fa-2x d-block"></i>Work
-							</div>
-
-
-
-							<div class="p-2 bg-warning font-div" data-toggle="collapse" data-target="#contact">
-								<i class="fa fa-envelope fa-2x d-block"></i>Contact
-							</div>
-
-
-
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
-
-
-	<div class="container">
-		<div class="collapse" id="home">
-			<div class="p-5 text-white bg-success">
-				<h2>Who is Suvadeep ? </h2>
-				<p>Fullstack Web Developer || Freelancer || Programmer</p>
-			</div>
-			<div class="card card-body">
-				<h2>My skills</h2>
-				<p>Here is my all skills : </p>
+<!-- About Us -->
 
 
-				<h4>C/C++</h4>
-				<div class="progress mb-4">
-					<div class="progress-bar progress-bar-striped progress-bar-animated" style="width:70%"></div>
-				</div>
+    <div id="about_section">
+      <div class="container">
+        <div class="row m-0">
+          <div class="col-lg-6 col-md-6 col-ms-12 col-xs-12">
+            <h2 id="heading">Welcome to Everyone</h2>
+            <div>
+              <h5 class="lets_talk">Let's Talk <span style="color: #E03B8B;">------------------</span> </h5>
+            </div>
+            <h4 id="info_gmail">suvadeepmaity18@gmail.com</h4>
+            <div class="contact_info">
+              <h5>suvadeep2001@</h5>
+              <h5>+91 8001618512</h5>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-ms-12 col-xs-12 about_me_right_section">
+            <h2 id="heading">About Me</h2>
+            <hr>
+            <p id="txt">Hello , I'm Suvadeep Maity</p>
+            <table class="table">
+              <tr>
+                <td>Name</td>
+                <td>:</td>
+                <td>Suvadeep Maity</td>
+              </tr>
 
-				<h4>Core Java</h4>
-				<div class="progress mb-4">
-					<div class="progress-bar progress-bar-striped progress-bar-animated" style="width:60%"></div>
-				</div>
+              <tr>
+                <td>Email</td>
+                <td>:</td>
+                <td>suvadeepmaity18@gmail.com</td>
+              </tr>
+              <tr>
+                <td>Website</td>
+                <td>:</td>
+                <td>website.com</td>
+              </tr>
 
-				<h4>Javascript</h4>
-				<div class="progress mb-4">
-					<div class="progress-bar progress-bar-striped progress-bar-animated" style="width:60%"></div>
-				</div>
+            </table>
+            <a href="./resume/Suvadeep's Resume.pdf" download="suvadeep_resume">
+              <p>
+            <button class="btn btn-light btn-sm animate_animated">Download CV</button>
+          </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- skills section -->
 
-				<h4>Web Development</h4>
-				<div class="progress mb-4">
-					<div class="progress-bar progress-bar-striped progress-bar-animated" style="width:60%"></div>
-				</div>
+    <div id="skills_section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 skills_section_left_section">
+            <div>
+              <h1 class="text-white" id="heading">My Skills <span style="color: #E03B8B;">.</span></h1>
+            <hr>
+            <p>I am expertise in <span style="color: #E03B8B;">.</span></p>
+            <div class="social_media_icons">
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <a>Web Design</a>
+                </li>
+                <li class="list-group-item">
+                  <a>Web Development</a>
+                </li>
+                <li class="list-group-item">
+                  <a>Cloud Computing</a>
+                </li>
+                <li class="list-group-item">
+                  <a>Blockchain</a>
+                </li>
+              </ul>
+            </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 skills_section_right_section">
+            <div>
+              <div class="each_skills">
+                <span>Web Development</span>
+                <div class="progress">
+                  <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
 
-				<h4>React JS</h4>
-				<div class="progress mb-4">
-					<div class="progress-bar progress-bar-striped progress-bar-animated" style="width:50%"></div>
-				</div>
-				<h4>git and github</h4>
-				<div class="progress mb-4">
-					<div class="progress-bar progress-bar-striped progress-bar-animated" style="width:50%"></div>
-				</div>
-			</div>
+                <span>React JS</span>
+                <div class="progress">
+                  <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
 
-		</div>
+                <span>Vue JS</span>
+                <div class="progress">
+                  <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
 
-		<div class="collapse" id="resume">
-			<div class="p-5 text-white bg-danger">
-				<h2>My resume</h2>
-			</div>
-			<div class="card card-body">
-				<h2>My works experience</h2>
+                <span>Firebase</span>
+                <div class="progress">
+                  <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
 
-				<div class="card-deck text-center">
-					<div class="card">
-						<div class="card-header text-uppercase font-weight-bold">Web Developer</div>
-						<div class="card-body">
+                <span>Mongodb</span>
+                <div class="progress">
+                  <div class="progress-bar bg-warning" role="progressbar" style="width: 65%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+ 
+                <span>JAVA</span>
+                <div class="progress">
+                  <div class="progress-bar bg-warning" role="progressbar" style="width: 55%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
 
-							<p class="mb-4">I am a full stack web developer and I have made alot websites in fromtend
-								and some in backend.</p>
-							<p class="bg-dark text-white p-2">Frontend developer</p>
-							<p class="bg-dark text-white p-2">Backend developer</p>
-						</div>
+                <span>PHP</span>
+                <div class="progress">
+                  <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+  
+                <span>JavaScript</span>
+                <div class="progress">
+                  <div class="progress-bar bg-warning" role="progressbar" style="width: 65%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
 
-						<div class="card-footer">date:2020-till now</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-					</div>
-					<div class="card">
-						<div class="card-header text-uppercase font-weight-bold">Freelancer</div>
-						<div class="card-body">
-
-							<p class="mb-4">As I am a web developer , I started my freelancing journey with web
-								development . I did alot of offline work as a freelancer . </p>
-							<p class="bg-dark text-white p-2">Freelancer</p>
-							<p class="bg-dark text-white p-2">Offline work</p>
-						</div>
-
-						<div class="card-footer">date:2020-til now</div>
-
-					</div>
-					<div class="card">
-						<div class="card-header text-uppercase font-weight-bold">Problem Solving</div>
-						<div class="card-body">
-
-							<p class="mb-4 group">I like to solve problems . I generally use online platforms to
-								practice and enhance my problem solving ebility.
-							</p>
-						</div>
-
-					</div>
-				</div>
-			</div>
-		</div>
-
-
-		<div class="collapse" id="work">
-			<div class="p-5 text-white bg-primary">
-				<h2>My work</h2>
-				<p>I have made some projects on different Technologies . </p>
-			</div>
-			<div class="card card-bodyWhat I have build"></div>
-			<p>Here are some of my works . </p>
-
-			<div class="row no-gutters">
-				<div class="col-lg-4 col-md-4"><a href="https://siddharthagro.in"><img src="img/project-1.png"
-							alt=""></a></div>
-				<div class="col-lg-4 col-md-4"><a href="https://chat-application-node-js.herokuapp.com/"><img
-							src="img/project-2.png" alt=""></a></div>
-				<div class="col-lg-4 col-md-4"><a href="https://github.com/AndrewSuv/insort-clone"><img
-							src="img/project-3.png" alt=""></a></div>
-				<div class="col-lg-4 col-md-4"><a href="https://andrewsuv.github.io/pinterest-clone-app/"><img
-							src="img/project-4.png" alt=""></a></div>
-				<div class="col-lg-4 col-md-4"><a href="https://image-to-pdf-app.herokuapp.com/"><img
-							src="img/project-5.png" alt=""></a></div>
-				<div class="col-lg-4 col-md-4"><a href="https://image-editor-app.netlify.app/"><img
-							src="img/project-6.png" alt=""></a></div>
-
-			</div>
-
-
-		</div>
-
-		<div class="collapse" id="contact">
-			<div class="p-5 text-white bg-warning">
-				<h2>contact with me</h2>
-				<p>For any type of freelancing work and to contact with me fill this form</p>
-			</div>
-
-			<div class="card card-body">
-
-				<div class="row justify-content-center">
-					<div class="col-lg-8 col-md-8 col-12">
-						<form action="">
-							<div class="form-group">
-								<div class="input-group input-group-lg">
-									<span class="input-group-addon bg-warning text-white p-3">
-										<i class="fa fa-user"></i>
-									</span>
-									<input type="text" name="" class="form-control bg-dark text-white"
-										placeholder="name">
-								</div>
-							</div>
-
-							<div class="form-group">
-								<div class="input-group input-group-lg">
-									<span class="input-group-addon bg-warning text-white p-3">
-										<i class="fa fa-envelope"></i>
-									</span>
-									<input type="text" name="" class="form-control bg-dark text-white"
-										placeholder="mail">
-								</div>
-							</div>
-
-							<div class="form-group">
-								<div class="input-group input-group-lg">
-									<span class="input-group-addon bg-warning text-white p-3">
-										<i class="fa fa-envelope"></i>
-									</span>
-									<input type="text" name="" class="form-control bg-dark text-white"
-										placeholder="message">
-								</div>
-							</div>
+    
+    <!-- portfolio -->
 
 
-							<input type="submit" name="" class="btn btn-danger" value="send">
-						</form>
-					</div>
-				</div>
+    <div id="portfolio_section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
-			</div>
-
-
-		</div>
-
-
-	</div>
-
-	<div class="container">
-		<footer class="p-5 bg-dark text-center">
-			<a href="./cv/Suvadeep-Resume.pdf" download="Suvadeep's Resume" target="_blank">
-				<button class="btn" style="color: white;">
-					<i class="fa fa-download  fa-2x"></i><br>download resume
-				</button>
-			</a>
-		</footer>
-	</div>
+            <h1 class="text-white text-center">My Portfolio <span style="color:#E03B8B;">.</span></h1>
 
 
 
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <nav class="d-flex justify-content-center" >
+              <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                <a class="nav-item nav-link active text-white" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Frontend</a>
+                <a class="nav-item nav-link text-white" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Full Stack</a>
+                <a class="nav-item nav-link text-white" id="nav-profile-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-profile" aria-selected="false">react JS</a>
+              </div>
+            </nav>
+            <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+              <div class="card-columns">
+                <div class="card border-0 padding-0">
+                  <a href="https://image-editor-app.netlify.app/">
+                    <img class="card-img-top" src="./Images/image-1.png" alt="">
+                  </a>
+                
+                </div>
+                <div class="card border-0 padding-0">
+                  <a href="https://suvadeep2001.github.io/pinterest-clone-app/">
+                    <img class="card-img-top" src="./Images/image-2.png" alt="">
+                  </a>
+                </div>
+
+                <div class="card border-0 padding-0">
+                  <a href="https://the-excellence-group.netlify.app">
+                    <img class="card-img-top" src="./Images/image-7.png" alt="">
+                  </a>
+                </div>
 
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+              </div>
+              </div>
+              <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                <div class="card-columns">
+                  <div class="card border-0 padding-0">
+                    <a href="https://siddharthagro.in/">
+                      <img class="card-img-top" src="./Images/image-3.png" alt="">
+                    </a>
+                  </div>
+                  <div class="card border-0 padding-0">
+                    <a href="https://suvadeep.netlify.app/img/project-2.png">
+                      <img class="card-img-top" src="./Images/image-4.png" alt="">
+                    </a>
+                  </div>
+                  <div class="card border-0 padding-0">
+                    <a href="https://suvadeep.netlify.app/img/project-5.png">
+                      <img class="card-img-top" src="./Images/image-5.png" alt="">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                <div class="card-columns">
+                 
+                  <div class="card border-0 padding-0">
+                    <a href="https://github.com/suvadeep2001/insort-clone">
+                    <img class="card-img-top" src="https://user-images.githubusercontent.com/68159874/122815732-7b276f80-d2f3-11eb-9b6f-80452661b31d.png" alt="">
+                    </a>
+                  </div>
 
-	<script type="text/javascript">
-		$('font-div').click(function () {
-			$('.collapse').collapse('hide')
-		});
+                  <div class="card border-0 padding-0">
+                    <a href="https://todo-react-js-app.netlify.app/">
+                    <img class="card-img-top" src="./Images/image-6.png" alt="">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="tab-pane fade" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">
+                Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui minim occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad duis occaecat ex.
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-	</script>
+
+    <!-- blog -->
+
+    <div id="blog_section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h1 id="heading" class="text-white text-center">Blogs <span style="color:#E03B8B;">.</h1>
+          </div>
+        </div>
+
+        <div class="row mt-5">
+        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+          <div class="card animate_animated border-0">
+            <div class="card-header border-0 p-0">
+              <img src="./Images//blogs/blog1.jpg" alt="" width="100%">
+            </div>
+            <div class="card-body">
+              <h3 class="title">Intrduction to Arduino</h3>
+              <p class="date">Post on <span>05.05.21</span></p>
+              <p class="txt">A general introduction about Arduino</p>
+              <a href="https://codewithsuvo.blogspot.com/2020/07/what-is-arduino.html" class="text-decoration-none read_more">read more</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+          <div class="card animate_animated border-0">
+            <div class="card-header border-0 p-0">
+              <img src="./Images/blogs/2.jpg" alt="" width="100%">
+            </div>
+            <div class="card-body">
+              <h3 class="title">Web Development</h3>
+              <p class="date">Post on <span>05.05.21</span></p>
+              <p class="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ducimus!</p>
+              <a href="" class="text-decoration-none read_more">read more</a>
+            </div>
+          </div>
+        </div> -->
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- contact -->
+
+    <div id="contact_section">
+      <div class="container">
+        <div class="row m-0">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div>
+              <h3 class="heading">Contact Me <span style="color: #F87652;">.</span></h3>
+              <hr>
+              <p class="txt">Feel free to contact with me </p>
+              <form>
+                <div class="form-group">
+                  <input class="form-control" placeholder="Your Name" type="text"/>
+                </div>
+
+                <div class="form-group">
+                  <input class="form-control" placeholder="Subject" type="text"/>
+                </div>
+
+                <div class="form-group">
+                  <textarea class="form-control" placeholder="type your message ...." name="" id="" cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="form-group">
+                  <button class="btn btn-light animate_animated" type="submit">Submit</button>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <div>
+            <ul class="list-unstyled">
+              <li>
+                <i class="fa fa-envelope-o"></i>&nbsp suvadeepmaity18@gmail.com
+              </li>
+              <li>
+                <i class="fa fa-phone"></i>&nbsp +91 8001618512
+              </li>
+            </ul>
+          </div>
+          <div class="map_wrapper">
+            <div class="mapouter"><div class="gmap_canvas"><iframe width="525" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=Egra%20,%20word%20no%204&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://getasearch.com/nordvpn-coupon/"></a><br><style>.mapouter{position:relative;text-align:right;height:400px;width:525px;}</style><a href="https://www.embedgooglemap.net">embedgooglemap.net</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:525px;}</style></div></div>
+          </div>   
+        </div>
+      </div>
+    </div>
+
+   <!-- footer section -->
+
+   <div class="footer-area">
+     <div class="container">
+       <div class="row py-5">
+        <div class="logo-area col-lg-4 col-md-4 col-sm-12 col-12">
+          <a href="" class="navbar-brand text-white">
+            Suvadeep <span style="color: #F87652;">.</span>
+          </a>
+          <p>I'm always ready to take freelancing jobs</p>
+          <div class="links">
+           <a href="https://www.facebook.com/profile.php?id=100055852188607"><i class="fa fa-facebook-square animate_animated"></i></a>
+          <a href="https://github.com/suvadeep2001"><i class="fa fa-github animate_animated"></i></a> 
+           <a href="https://www.instagram.com/suva18857/"><i class="fa fa-instagram px-1 animate_animated"></i></a> 
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-12 col-12 column">
+        <h4 class="heading">Skills<span style="color: #F87652;">.</span></h4>
+        <ul class="list-group">
+        <li class="list-group-item border-0 bg-transparent">
+          <i class="fa fa-chevron-right"></i> <span>Web Development</span>
+        </li>
+
+        <li class="list-group-item border-0 bg-transparent">
+          <i class="fa fa-chevron-right"></i> <span>Cloud Computing</span>
+        </li>
+
+        <li class="list-group-item border-0 bg-transparent">
+          <i class="fa fa-chevron-right"></i> <span>Blockchain</span>
+        </li>
+        </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-12 col-12 column">
+          <h4 class="heading">Links<span style="color: #F87652;">.</span></h4>
+          <ul class="list-group">
+          <li class="list-group-item border-0 bg-transparent">
+            <a href="https://github.com/suvadeep2001">
+              <i class="fa fa-chevron-right"></i> <span class="text-white">github</span>
+            </a>
+            
+          </li>
+  
+          <li class="list-group-item border-0 bg-transparent">
+            <a href="https://www.linkedin.com/in/suvadeep-maity-392a881a7/">
+              <i class="fa fa-chevron-right"></i> <span class="text-white">Linkedin</span>
+            </a>
+          </li>
+  
+          <li class="list-group-item border-0 bg-transparent">
+            <i class="fa fa-chevron-right"></i> <span>website</span>
+          </li>
+          </ul>
+          </div>
+       </div>
+     </div>
+   </div>
+
+<div id="particles-js"></div>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script>
+    particlesJS.load('particles-js', 'particles.json',
+    function(){
+        console.log('particles.json loaded...')
+    })
+</script>
+    <script src="./js/app.js"></script>
+    <script src="./js/particles.js"></script>
 
 </body>
-
 </html>
